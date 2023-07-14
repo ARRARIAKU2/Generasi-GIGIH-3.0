@@ -9,16 +9,19 @@ let musics = [
         id: 1,
         title: "Cinta Luar Biasa",
         artist: "Andmesh Kamaleng",
+        playCount: 0
     },
     {
         id: 2,
         title: "Kasih Slow",
         artist: "Jaga Orang Pu Jodoh",
+        playCount: 0
     },
     {
         id: 3,
         title: "Pura Pura Lupa",
         artist: "Mahen",
+        playCount: 0
     }
 ];
 
@@ -44,6 +47,7 @@ app.get('/musics/:id', (req, res) => {
 app.post('/musics', (req, res) => {
     const music = req.body;
     music.id = musics.length + 1;
+    music.playCount = 0; // Initialize play count to 0
     musics.push(music);
     res.status(201).json({
         info: "success",
@@ -58,7 +62,7 @@ app.put('/musics/:id', (req, res) => {
     const music = req.body;
     const index = musics.findIndex(music => music.id == id);
     if (index !== -1) {
-        musics[index] = { ...music, id: parseInt(id) };
+        musics[index] = { ...music, id: parseInt(id), playCount: musics[index].playCount };
         res.json({
             info: "success",
             message: "Data berhasil diubah",
@@ -84,11 +88,17 @@ app.delete('/musics/:id', (req, res) => {
     }
 });
 
+// Get list of songs sorted by most played
+app.get('/musics/sorted', (req, res) => {
+    const sortedMusics = musics.sort((a, b) => b.playCount - a.playCount);
+    res.json(sortedMusics);
+});
+
 const cors = require('cors');
 
 app.use(cors({
-  origin: "*",
-  methods: "*"
+    origin: "*",
+    methods: "*"
 }));
 
 app.listen(port, () => {
