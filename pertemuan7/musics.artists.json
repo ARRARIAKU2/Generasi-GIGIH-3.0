@@ -1,0 +1,110 @@
+[{
+  "_id": {
+    "$oid": "64b6060ae770792be45e7509"
+  },
+  "name": "John Smith",
+  "date_of_birth": "1985-03-12",
+  "genres": [
+    "Rock",
+    "Pop"
+  ]
+},
+{
+  "_id": {
+    "$oid": "64b6060ae770792be45e750a"
+  },
+  "name": "Emma Johnson",
+  "date_of_birth": "1990-07-25",
+  "genres": [
+    "Jazz",
+    "Electronic"
+  ]
+},
+{
+  "_id": {
+    "$oid": "64b6060ae770792be45e750b"
+  },
+  "name": "Michael Williams",
+  "date_of_birth": "1982-11-05",
+  "genres": [
+    "Hip Hop",
+    "R&B"
+  ]
+},
+{
+  "_id": {
+    "$oid": "64b6060ae770792be45e750c"
+  },
+  "name": "Sophia Jones",
+  "date_of_birth": "1988-09-18",
+  "genres": [
+    "Pop",
+    "Country"
+  ]
+},
+{
+  "_id": {
+    "$oid": "64b6060ae770792be45e750d"
+  },
+  "name": "David Brown",
+  "date_of_birth": "1995-12-03",
+  "genres": [
+    "Rock",
+    "Folk"
+  ]
+},
+{
+  "_id": {
+    "$oid": "64b6060ae770792be45e750e"
+  },
+  "name": "Olivia Davis",
+  "date_of_birth": "1987-04-27",
+  "genres": [
+    "Pop",
+    "Electronic"
+  ]
+},
+{
+  "_id": {
+    "$oid": "64b6060ae770792be45e750f"
+  },
+  "name": "Daniel Miller",
+  "date_of_birth": "1992-10-10",
+  "genres": [
+    "Jazz",
+    "Classical"
+  ]
+},
+{
+  "_id": {
+    "$oid": "64b6060ae770792be45e7510"
+  },
+  "name": "Ava Smith",
+  "date_of_birth": "1998-06-15",
+  "genres": [
+    "Country",
+    "Folk"
+  ]
+},
+{
+  "_id": {
+    "$oid": "64b6060ae770792be45e7511"
+  },
+  "name": "John Johnson",
+  "date_of_birth": "1991-08-29",
+  "genres": [
+    "Rock",
+    "Reggae"
+  ]
+},
+{
+  "_id": {
+    "$oid": "64b6060ae770792be45e7512"
+  },
+  "name": "Emma Davis",
+  "date_of_birth": "1996-02-14",
+  "genres": [
+    "Pop",
+    "R&B"
+  ]
+}]

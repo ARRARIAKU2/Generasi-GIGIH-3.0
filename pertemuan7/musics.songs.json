@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "64b6097fe770792be45e7518"
+  },
+  "title_song": "ME!",
+  "artist": "Taylor Swift",
+  "album": "Lover"
+},
+{
+  "_id": {
+    "$oid": "64b6097fe770792be45e7519"
+  },
+  "title_song": "Shake it Off",
+  "artist": "Taylor Swift",
+  "album": "1989"
+},
+{
+  "_id": {
+    "$oid": "64b6097fe770792be45e751a"
+  },
+  "title_song": "...Ready for It?",
+  "artist": "Taylor Swift",
+  "album": "Reputation"
+},
+{
+  "_id": {
+    "$oid": "64b6097fe770792be45e751b"
+  },
+  "title_song": "Chocolate",
+  "artist": "Sophie Jones",
+  "album": "Always Emotions"
+},
+{
+  "_id": {
+    "$oid": "64b6097fe770792be45e751c"
+  },
+  "title_song": "Ghost Highway",
+  "artist": "David Brown",
+  "album": "Forebodings"
+},
+{
+  "_id": {
+    "$oid": "64b6097fe770792be45e751d"
+  },
+  "title_song": "Dark Salvation",
+  "artist": "Olivia Davis",
+  "album": "Colossal Choir"
+},
+{
+  "_id": {
+    "$oid": "64b6097fe770792be45e751e"
+  },
+  "title_song": "Your Man",
+  "artist": "Daniel Miller",
+  "album": "Dusk"
+},
+{
+  "_id": {
+    "$oid": "64b6097fe770792be45e751f"
+  },
+  "title_song": "Friends",
+  "artist": "John Smith",
+  "album": "The Fray"
+},
+{
+  "_id": {
+    "$oid": "64b6097fe770792be45e7520"
+  },
+  "title_song": "Duo Concertant",
+  "artist": "Emma Johnson",
+  "album": "La Clarinette Francaise"
+},
+{
+  "_id": {
+    "$oid": "64b6097fe770792be45e7521"
+  },
+  "title_song": "Want You",
+  "artist": "Michael Williams",
+  "album": "Believe"
+}]
